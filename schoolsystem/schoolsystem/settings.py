@@ -25,7 +25,7 @@ SECRET_KEY = '&#s=d29g-@-$3fl6$brri@50wo9wl_l3oyuid7p_r=px*!lrwq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['school-djangoreact-app.herokuapp.com', '127.0.0.1','localhost']
 
 
 # Application definition
