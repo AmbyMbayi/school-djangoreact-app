@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'school'
+    'school',
+    'frontend'
 ]
 
 MIDDLEWARE = [
@@ -125,5 +126,5 @@ STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 import dj_database_url
-dj_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+prod_db = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(prod_db)
