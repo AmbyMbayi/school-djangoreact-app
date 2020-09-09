@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch ./schoolsystem/frontend/src/index.js --output ./schoolsystem/frontend/static/frontend/main.js",
-    "build": "webpack --mode development ./schoolsystem/frontend/src/index.js --output ./schoolsystem/frontend/static/frontend/main.js"
+    "dev": "webpack --mode development --watch ./schoolsystem/frontend/src/index.js --output /schoolsystem/frontend/static/frontend/main.js",
+    "build": "webpack --mode development ./schoolsystem/frontend/src/index.js --output /schoolsystem/frontend/static/frontend/main.js"
   },
   "keywords": [],
   "author": "",
