@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 class App extends Component {
   render() {
-    return <h1>school system</h1>;
+    return <h1>school system S</h1>;
   }
 }
 ReactDOM.render(<App />, document.getElementById("app"));
